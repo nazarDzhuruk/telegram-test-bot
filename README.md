@@ -1,0 +1,1 @@
+This application use jsouop, postgresql database and telegramm bot api. it returns link to gidonline page of selected film genre.
