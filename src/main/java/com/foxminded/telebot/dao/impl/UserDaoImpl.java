@@ -45,7 +45,6 @@ public class UserDaoImpl implements UserDao {
         }
         logger.info("Add user status: added successfully. ");
     }
-
     @Override
     public Optional<User> read(long id) {
         logger.debug("Read from database status: in progress... ");
