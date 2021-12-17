@@ -1,5 +1,6 @@
-package com.foxminded.telebot.dao;
+package com.foxminded.telebot.dao.impl;
 
+import com.foxminded.telebot.dao.UserDao;
 import com.foxminded.telebot.model.user.User;
 import com.foxminded.telebot.model.user.UserMapper;
 import com.foxminded.telebot.source.Connection;
