@@ -5,8 +5,9 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 import java.io.IOException;
+import java.util.List;
 
 public interface Message {
-    SendMessage startMessage(Update update);
-    SendMessage filmDescription(Update update) throws IOException;
+    List<SendMessage> startMessage(Update update);
+    List<SendMessage> filmDescription(Update update) throws IOException;
 }
