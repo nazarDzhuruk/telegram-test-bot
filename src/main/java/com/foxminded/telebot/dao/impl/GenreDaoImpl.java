@@ -25,7 +25,7 @@ public class GenreDaoImpl implements GenreDao {
         String sql = "SELECT * FROM film_genre";
         return connection.jdbcTemplate().query(sql, new GenreMapper());
     }
-    
+
     @Override
     public Optional<Genres> link(String genre) {
         String sql = "SELECT link FROM film_genre WHERE genre=?";
